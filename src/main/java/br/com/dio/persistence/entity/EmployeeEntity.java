@@ -1,4 +1,4 @@
-package br.com.dio.Entity;
+package br.com.dio.persistence.entity;
 
 import java.math.BigDecimal;
 import java.time.OffsetDateTime;

@@ -13,6 +13,7 @@ dependencies {
     implementation("com.mysql:mysql-connector-j:9.2.0")
     implementation("org.flywaydb:flyway-core:11.6.0")
     implementation("org.flywaydb:flyway-mysql:11.6.0")
+    implementation("net.datafaker:datafaker:2.4.3")
 
     compileOnly("org.projectlombok:lombok:1.18.38")
     annotationProcessor("org.projectlombok:lombok:1.18.38")

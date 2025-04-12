@@ -11,6 +11,6 @@ import lombok.AccessLevel;
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class ConnectionUtil {
     public static Connection getConnection() throws SQLException{
-        return DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc-sample", "your_username", "your_password");
+        return DriverManager.getConnection(System.getenv("db_url"), System.getenv("db_username"), System.getenv("db_password"));
     }
 }
